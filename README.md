@@ -68,10 +68,6 @@ This is a full-stack web application built for managing tasks. It allows users t
     - Update the DB_CONNECT in .env with your cluster
     - Start the server
 
-5. Access the Application:
-
-- Open your web browser and visit http://localhost:5173 to access the application.
-
 ## Backend
 The backend of the application is built using Node.js and Express. It provides the API endpoints for managing tasks.
 
@@ -113,11 +109,13 @@ The backend directory contains the following files and folders:
 
 ## Usage
 
-Add your application configuration to your `.env ` file in the both api and client of your project by switching folders and then running following command:
+Add your application configuration to your `.env ` file in the client directory of your project by switching folders and then running following command:
 
 ```shell
 cp .env.example .env
 ```
+
+Open your web browser and visit http://localhost:5173 to access the application.
 
 ## Security Considerations
 The application implements secure authentication and authorization using JSON Web Tokens (JWT). Proper validation and sanitization of user inputs are performed to prevent common web application attacks, such as cross-site scripting (XSS) and SQL injection.
